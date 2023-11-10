@@ -1,0 +1,75 @@
+.book-card {
+  margin-inline: auto;
+  width: 88%;
+  height: 355px;
+  display: flex;
+}
+.book-body {
+  padding-top: 52px;
+  padding-left: 52px;
+}
+
+.book-title {
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  font-family: Montserrat;
+  font-size: 47px;
+  letter-spacing: -2.31px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.book-title-container {
+  width: 520px;
+  height: 120px;
+  overflow: hidden;
+}
+.book-content-container {
+  width: 520px;
+  height: 108px;
+  overflow: hidden;
+}
+.book-content {
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.book-img {
+  width: 335px;
+  height: 321px;
+  flex-shrink: 0;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.more-book-item-container {
+  background: #eee;
+  border-radius: 6px;
+  width: 264.637px;
+  height: 289.984px;
+}
+.more-book-item-container .more-book-img {
+  width: 223.101px;
+  height: 273px;
+  padding-top: 19px;
+}
+.more-book-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-inline: auto;
+  box-shadow: 0px 10px 20px 0px #eee;
+  padding-top: 30px;
+  padding-inline: 26.5px;
+  padding-bottom: 34px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid var(--gray-300, #dee2e7);
+}

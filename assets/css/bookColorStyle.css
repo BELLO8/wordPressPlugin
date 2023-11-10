@@ -1,0 +1,22 @@
+.bg-1 {
+  background: linear-gradient(246deg, #fedca8 7.1%, #e86014 80.1%);
+}
+.bg-2 {
+  background: linear-gradient(225deg, #faface -11.3%, #05402b 95.89%);
+}
+
+.bg-3 {
+  background: linear-gradient(107deg, #fbf5ed 30.3%, #a7a5a2 96.04%);
+}
+
+.bg-4 {
+  background: linear-gradient(225deg, #e7f9f0 -11.3%, #286c93 95.89%);
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-black {
+  color: #000000;
+}
